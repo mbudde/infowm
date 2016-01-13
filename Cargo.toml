@@ -1,0 +1,10 @@
+[package]
+name = "infowm"
+version = "0.1.0"
+authors = ["Michael Budde <mbudde@gmail.com>"]
+
+[dependencies]
+log = "*"
+env_logger = "*"
+libc = "*"
+x11 = { version = "2.3.0", features = ["xlib"] }
